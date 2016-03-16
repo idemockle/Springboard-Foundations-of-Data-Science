@@ -1,8 +1,6 @@
 library(dplyr)
 library(tidyr)
 
-blahblah testing
-
 #0. Load the data in RStudio
 refine <- read.csv("refine.csv")
 refine <- tbl_df(refine)

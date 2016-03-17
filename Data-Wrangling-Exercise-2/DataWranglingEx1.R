@@ -29,4 +29,4 @@ titanic <- titanic %>%
 titanic <- titanic %>% 
   mutate(has_cabin_number = as.numeric(cabin != ""))
 
-write.csv("titanic_clean.csv")
+write.csv(titanic,"titanic_clean.csv")
